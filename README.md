@@ -8,7 +8,7 @@ __Ce répertoire Github regroupe la partie électronique et informatique embarqu
 Réalisation et mise en œuvre d'une carte d'acquisition avec un microcontrôleur [Teensy 3.6](https://www.pjrc.com/store/teensy36.html) dans le but de recevoir/traiter des valeurs de thermistances/résistances chauffantes et transmettre/reçevoir des informations via plusieurs mode de communications
 
 Fonctionnalités de la carte d’acquisition :
-* Microcontrôleur Teensy 3.6 :
+* Microcontrôleur [Teensy 3.6](https://www.pjrc.com/store/teensy36.html) :
   * Processeur 32 bits: Cortex-M4 @ 180 MHz 
   * Mémoires: 1M Flash, 256K RAM et 4K EEPROM
   * Microcontrôleur MK66FX1M0VMD18
