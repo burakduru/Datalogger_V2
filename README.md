@@ -643,6 +643,9 @@ Protocole de télécommunication LoRa bas débit et à faible consommation élec
 Bluetooth Low Energy (BLE)
 --------------------------
 
+fdsfsdfsdf
+fdsfsdfsdfsd
+
 
 
 
