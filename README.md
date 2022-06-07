@@ -287,7 +287,7 @@ Impact du faceur d'étalement sur la portée et le débit (SF - Spreading Factor
 Bluetooth Low Energy
 --------------------------
 
-BLE P Click :
+[BLE P Click](https://www.mikroe.com/ble-p-click) :
 * Puce Bluetooth Low Energy (BLE) nRF8001 
 * Bus SPI (via le socket MikroBUS)
 * Utilisation de bibliothèque open source Arduino => utilisation du module BLE
