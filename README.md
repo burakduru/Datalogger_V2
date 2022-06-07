@@ -3,11 +3,34 @@
 
 __Ce répertoire Github regroupe la partie électronique et informatique embarquée de la carte d'acquistion Datalogger_V2 rédigé par Burak DURU en tant qu'apprenti ingénieur en électronique à la [Division Technique de l'INSU Meudon](https://www.dt.insu.cnrs.fr/).__
 
-## Carte d'acquisition : 
+## Carte d'acquisition 
 
 Réalisation et mise en œuvre d'une carte d'acquisition avec un microcontrôleur [Teensy 3.6](https://www.pjrc.com/store/teensy36.html) dans le but de recevoir/traiter des valeurs de thermistances/résistances chauffantes et transmettre/reçevoir des informations via plusieurs mode de communications
 
 Fonctionnalités de la carte d’acquisition :
+* Microcontrôleur Teensy 3.6 :
+  * Processeur 32 bits: Cortex-M4 @ 180 MHz 
+  * Mémoires: 1M Flash, 256K RAM et 4K EEPROM
+  * Microcontrôleur MK66FX1M0VMD18
+  * Port USB High Speed (480 Mbit/sec)
+  * 2 port Bus CAN
+  * 22 sorties PWM
+  * 4 ports I2C
+  * 62 broches E/S (dont 48 format DIL compatible breadboard - non tolérante au +5 V). Les entrées/sorties fonctionnent en 3.3 V 
+  * 25 entrées analogiques (à 2 ADC résolution 13 bits)
+  * 2 sorties analogiques (DAC résolution 12 bits)
+  * Port USB Full Speed (12 Mbit/sec)
+  * Ethernet jusqu'à 100 Mbits/sec
+  * Port intégré (4-bit SDIO) pour carte microSD™ (carte non livrée)
+  * Port Audio numérique I2S, 4 canaux Entrée & Sortie
+  * 14 Timers Hardware
+  * 3 ports SPI (dont 1 avec FIFO)
+  * 6 port série (dont 2 FIFO et Baud Rates rapides)
+  * Horloge temps réelle
+  * Dimensions: 62,3 x 18 x 4,2 mm
+
+  ![teensy3 6](https://user-images.githubusercontent.com/106671909/172415934-2c0cb4e4-b0e8-4aea-b337-f747bfd64cdf.png)
+ 
 * [Socket MikroBUS](https://www.mikroe.com/mikrobus/) pour l’utilisation des modules “Click”
 * Ethernet ([Module WIZ820-IO](https://www.wiznet.io/product-item/wiz820io/))
 * Sortie DAC, GPIO et commande Interlock Laser
