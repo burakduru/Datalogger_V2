@@ -1,6 +1,30 @@
 # Datalogger_V2
-![example workflow](https://github.com/burakduru/dataloggerv2/actions/workflows/main.yml/badge.svg)
+![example workflow](https://github.com/burakduru/dataloggerv2/actions/workflows/main.yml/badge.svg)  
+[![LinkedIn][linkedin-shield]][linkedin-url]
 __Ce répertoire Github regroupe la partie électronique et informatique embarquée de la carte d'acquistion Datalogger_V2 rédigé par Burak DURU en tant qu'apprenti ingénieur en électronique à la [Division Technique de l'INSU Meudon](https://www.dt.insu.cnrs.fr/).__
+
+<!-- PROJECT LOGO -->
+<br />
+<div align="center">
+  <a href="https://github.com/othneildrew/Best-README-Template">
+    <img src="images/logo.png" alt="Logo" width="80" height="80">
+  </a>
+
+  <h3 align="center">Best-README-Template</h3>
+
+  <p align="center">
+    An awesome README template to jumpstart your projects!
+    <br />
+    <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the docs »</strong></a>
+    <br />
+    <br />
+    <a href="https://github.com/othneildrew/Best-README-Template">View Demo</a>
+    ·
+    <a href="https://github.com/othneildrew/Best-README-Template/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/othneildrew/Best-README-Template/issues">Request Feature</a>
+  </p>
+</div>
 
 ## Carte d'acquisition : 
 
@@ -651,7 +675,7 @@ fdsfsdfsdfsd
 
 
 
-
+[linkedin-url]: https://linkedin.com/in/othneildrew
 
 
 
