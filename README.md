@@ -22,12 +22,12 @@ Fonctionnalités de la carte d’acquisition :
 ## Programmes utilisés
 
 * __[Datalogger](https://github.com/burakduru/dataloggerv2/blob/main/Programmes/microdial_datalogger_V2/microdial_datalogger_V2.ino)__ : *Permettant de récupérer les informations de températures et de tensions des connectiques thermistances YSI[...] et de tensions V[...] via une transmission RS232*  
-* __Bus CAN__ : *Permettant de recevoir/transmettre des trames de données depuis le bus de donnée CAN. (Dans notre exemple, transmission d’une donnée de compteur et de thermistances)*
-* __Ethernet__ : *Programme d’exemples pour l’initialisation module Ethernet / Envoi et réception de trames UDP / Connexion à un broker MQTT et le statut de connexion* 
-* __Programmes de tests__ : *Modules “Click” utilisés*
-* __WIFI__ : *Programme pour le scan/connexion des réseaux et connexion à un serveur/broker MQTT* 
-* __LoRa__ : *Plusieurs programmes permettant d’initialiser et d’envoyer des trames de données via le protocol de communication bas débit LoRa* 
-* __AdafruitIO | ThinkSpeak__ : *Envoi/réception de données en utilisant une connexion Internet (via Ethernet ou WIFI) à un serveur MQTT* 
+* __[Bus CAN](https://github.com/burakduru/dataloggerv2/blob/main/Programmes/bus_can/bus_can.ino)__ : *Permettant de recevoir/transmettre des trames de données depuis le bus de donnée CAN. (Dans notre exemple, transmission d’une donnée de compteur et de thermistances)*
+* __[Ethernet](https://github.com/burakduru/dataloggerv2/blob/main/Programmes/wiz820io_mqtt_ethernet/wiz820io_mqtt_ethernet.ino)__ : *Programme d’exemples pour l’initialisation module Ethernet / Envoi et réception de trames UDP / Connexion à un broker MQTT et le statut de connexion* 
+* __[Programmes de tests](https://github.com/burakduru/dataloggerv2/tree/main/Programmes/click_exemples)__ : *Modules “Click” utilisés*
+* __[WIFI](https://github.com/burakduru/dataloggerv2/blob/main/Programmes/adafruitio_wifi/adafruit_io_wifi_mqtt_16_04.ino)__ : *Programme pour le scan/connexion des réseaux et connexion à un serveur/broker MQTT* 
+* __[LoRa](https://github.com/burakduru/dataloggerv2/blob/main/Programmes/LoRa_microdial_send_temp/LoRa_microdial_send_temp.ino)__ : *Plusieurs programmes permettant d’initialiser et d’envoyer des trames de données via le protocol de communication bas débit LoRa* 
+* __[AdafruitIO | ThinkSpeak](https://github.com/burakduru/dataloggerv2/tree/main/Programmes)__ : *Envoi/réception de données en utilisant une connexion Internet (via Ethernet ou WIFI) à un serveur MQTT* 
 
 ## Matériel
 
