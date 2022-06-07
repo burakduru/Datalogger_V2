@@ -432,7 +432,7 @@ void TRAME_NMEA_CRC(char * NMEA_DATA,int CRC)
 
 
 ## Guide d'utilisation 
-__[1. Installation de Teensyduino](#1. Installation de Teensyduino)    
+__[1. Installation de Teensyduino](#1.-installation-de-teensyduino)    
 2. [Installation de bibliothèques sous Teensyduino](#1. Installation-de-Teensyduino)  
 3. Modules Click Board  
 4. Pinout Datalogger_V2  
@@ -446,7 +446,7 @@ __[1. Installation de Teensyduino](#1. Installation de Teensyduino)
 12. LoRa  
 13. Bluetooth Low Energy (BLE)__
 
-### 1. Installation de Teensyduino
+###1. Installation de Teensyduino
 Télécharger l’Add-On pour l’IDE d’Arduino en utilisant ce lien sous Windows: https://www.pjrc.com/teensy/td_download.html.
 Avec Windows 10, il n’y a pas de driver à installer : On choisit donc, le chemin d’accès où se trouve arduino.exe : 
 
