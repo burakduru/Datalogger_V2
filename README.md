@@ -8,14 +8,14 @@ __Ce répertoire Github regroupe la partie électronique et informatique embarqu
 Réalisation et mise en œuvre d'une carte d'acquisition avec un microcontrôleur [Teensy 3.6](https://www.pjrc.com/store/teensy36.html) dans le but de recevoir/traiter des valeurs de thermistances/résistances chauffantes et transmettre/reçevoir des informations via plusieurs mode de communications.
 
 Fonctionnalités de la carte d’acquisition :
-* __[Socket MikroBUS](https://www.mikroe.com/mikrobus/) pour l’utilisation des modules “Click”__
-* __Ethernet ([Module WIZ820-IO](https://www.wiznet.io/product-item/wiz820io/))__
-* __Sortie DAC, GPIO et commande Interlock Laser__
-* __Bus CAN__
-* __Liaison RS232__
-* __Connectique pour le réseau de thermistances/tensions__
-* __Alimentation externe__
-* __Relais__
+* [Socket MikroBUS](https://www.mikroe.com/mikrobus/) pour l’utilisation des modules “Click”
+* Ethernet ([Module WIZ820-IO](https://www.wiznet.io/product-item/wiz820io/))
+* Sortie DAC, GPIO et commande Interlock Laser
+* Bus CAN
+* Liaison RS232
+* Connectique pour le réseau de thermistances/tensions
+* Alimentation externe
+* Relais
 
 ![datalogger_v2_3D](https://user-images.githubusercontent.com/106671909/172331493-1acb83ba-82b5-4351-945c-fa104018d79a.png)
 
