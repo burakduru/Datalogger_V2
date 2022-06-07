@@ -1,30 +1,7 @@
 # Datalogger_V2
-![example workflow](https://github.com/burakduru/dataloggerv2/actions/workflows/main.yml/badge.svg)  
-[![LinkedIn][linkedin-shield]][linkedin-url]
+![example workflow](https://github.com/burakduru/dataloggerv2/actions/workflows/main.yml/badge.svg) [![Outlook Badge](https://img.shields.io/badge/email--000?style=social&logo=microsoft-outlook&logoColor=0078d4&link=mailto:burak.duru@cnrs.fr)](mailto:burak.duru@cnrs.fr) [![Github Badge](https://img.shields.io/badge/GitHub--000?style=social&logo=Github&logoColor=black&link=https://github.com/burakduru)](https://github.com/burakduru)  
+
 __Ce répertoire Github regroupe la partie électronique et informatique embarquée de la carte d'acquistion Datalogger_V2 rédigé par Burak DURU en tant qu'apprenti ingénieur en électronique à la [Division Technique de l'INSU Meudon](https://www.dt.insu.cnrs.fr/).__
-
-<!-- PROJECT LOGO -->
-<br />
-<div align="center">
-  <a href="https://github.com/othneildrew/Best-README-Template">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
-  </a>
-
-  <h3 align="center">Best-README-Template</h3>
-
-  <p align="center">
-    An awesome README template to jumpstart your projects!
-    <br />
-    <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the docs »</strong></a>
-    <br />
-    <br />
-    <a href="https://github.com/othneildrew/Best-README-Template">View Demo</a>
-    ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Request Feature</a>
-  </p>
-</div>
 
 ## Carte d'acquisition : 
 
@@ -670,15 +647,6 @@ Bluetooth Low Energy
 
 fdsfsdfsdf
 fdsfsdfsdfsd
-
-
-
-
-
-[linkedin-url]: https://linkedin.com/in/othneildrew
-
-
-
 
 
 
