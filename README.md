@@ -8,14 +8,14 @@ __Ce répertoire Github regroupe la partie électronique et informatique embarqu
 Réalisation et mise en œuvre d'une carte d'acquisition avec un microcontrôleur [Teensy 3.6](https://www.pjrc.com/store/teensy36.html) dans le but de recevoir/traiter des valeurs de thermistances/résistances chauffantes et transmettre/reçevoir des informations via plusieurs mode de communications.
 
 Fonctionnalités de la carte d’acquisition :
-* [Socket MikroBUS](https://www.mikroe.com/mikrobus/) pour l’utilisation des modules “Click”
-* Ethernet ([Module WIZ820-IO](https://www.wiznet.io/product-item/wiz820io/))
-* Sortie DAC, GPIO et commande Interlock Laser
-* Bus CAN
-* Liaison RS232
-* Connectique pour le réseau de thermistances/tensions
-* Alimentation externe
-* Relais
+* __[Socket MikroBUS](https://www.mikroe.com/mikrobus/) pour l’utilisation des modules “Click”__
+* __Ethernet ([Module WIZ820-IO](https://www.wiznet.io/product-item/wiz820io/))__
+* __Sortie DAC, GPIO et commande Interlock Laser__
+* __Bus CAN__
+* __Liaison RS232__
+* __Connectique pour le réseau de thermistances/tensions__
+* __Alimentation externe__
+* __Relais__
 
 ![datalogger_v2_3D](https://user-images.githubusercontent.com/106671909/172331493-1acb83ba-82b5-4351-945c-fa104018d79a.png)
 
@@ -31,11 +31,11 @@ Fonctionnalités de la carte d’acquisition :
 
 ## Matériel
 
-* [PCB](https://github.com/burakduru/dataloggerv2/tree/main/PCB) : Fichiers schématique (.schDoc) et PCB (.pcbDoc) sous Altium Designer
+* __[PCB](https://github.com/burakduru/dataloggerv2/tree/main/PCB)__: Fichiers schématique (.schDoc) et PCB (.pcbDoc) sous Altium Designer
 
 ## Schéma fonctionnement complet
 
-* [Schématique](https://github.com/burakduru/dataloggerv2/blob/main/MicroDial_Data_Log_V2_SCH.pdf) : Fichier PDF regroupant la schématique de la carte d'acquisition Datalogger_V2
+* __[Schématique](https://github.com/burakduru/dataloggerv2/blob/main/MicroDial_Data_Log_V2_SCH.pdf)__ : Fichier PDF regroupant la schématique de la carte d'acquisition Datalogger_V2
 
 Guide d'utilisation 
 ===================
@@ -80,11 +80,11 @@ Programmes de tests :
 - Programme de test pour chacun des Click Board présentés
 - LED RGB/ Relais/ DAC/ Bus CAN
 - Programme de tests des thermistances/résistance chauffante (relevé de température et de tension)
-- Plusieurs programmes pour tester la liaison RJ45 (Ethernet) (connexion à un broker MQTT/ UDP/ Webserver et l’état de l’ethernet).
+- Plusieurs programmes pour tester la liaison RJ45 (Ethernet) (connexion à un broker MQTT/ UDP/ Webserver et l’état de l’ethernet)
 - Test de la liaison WIFI Click Board (Vérification mise à jour firmware/ scan et connexion à des réseaux).
 - Connection au broker MQTT IO.Adafruit et ThinkSpeak (Ethernet et WIFI)
 - Envoi données de température en passant par le réseau LoRa (LoRa Click)
-- Application sous Visual Studio afin de récupérer les valeurs de températures/tensions et contrôler les relais/led RGB et le DAC.
+- Application sous Visual Studio afin de récupérer les valeurs de températures/tensions et contrôler les relais/led RGB et le DAC
 
 Modules Click Board
 -------------------
@@ -101,7 +101,7 @@ Liste des modules MikroElektronika testés et compatible avec la carte d'acquisi
 - [LoRa Click](https://www.mikroe.com/lr-click/)
 
 Pinout DataloggerV2
---------------------
+-------------------
 
 ![pinout_datalogger](https://user-images.githubusercontent.com/106671909/172334709-dba5243d-9064-475c-aca5-53261286cae3.png)
 
