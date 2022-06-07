@@ -446,7 +446,7 @@ __[1. Installation de Teensyduino](#1.-installation-de-teensyduino)
 12. LoRa  
 13. Bluetooth Low Energy (BLE)__
 
-###1. Installation de Teensyduino
+### 1. Installation de Teensyduino
 Télécharger l’Add-On pour l’IDE d’Arduino en utilisant ce lien sous Windows: https://www.pjrc.com/teensy/td_download.html.
 Avec Windows 10, il n’y a pas de driver à installer : On choisit donc, le chemin d’accès où se trouve arduino.exe : 
 
