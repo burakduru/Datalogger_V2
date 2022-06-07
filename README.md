@@ -436,18 +436,18 @@ Guide d'utilisation
 
 <!--ts-->
 * [Installation de Teensyduino](#installation-de-teensyduino)    
-* [Installation de bibliothèques sous Teensyduino](#1. Installation-de-Teensyduino)  
-* [Modules Click Board](#  
-* [Pinout Datalogger_V2](#  
-* [Liaison RS232](# 
-* [Visual Studio](# 
-* [Bus CAN](#  
-* [Ethernet](#  
-* [WIFI](# 
-* [AdafruitIO](# 
-* [Thingspeak](#
-* [LoRa](#  
-* [Bluetooth Low Energy (BLE)](#
+* [Installation de bibliothèques sous Teensyduino](#installation-de-bibliothèques-sous-teensyduino)  
+* [Modules Click Board](#modules-click-board)
+* [Pinout DataloggerV2](#pinout-dataloggerV2)
+* [Liaison RS232](#liaison-rs232)
+* [Visual Studio](#visual-studio) 
+* [Bus CAN](#bus-can)  
+* [Ethernet](#ethernet)  
+* [WIFI](#wifi)
+* [AdafruitIO](#adafruitio) 
+* [Thingspeak](#thingspeak)
+* [LoRa](#lora)  
+* [Bluetooth Low Energy (BLE)](#bluetooth-low-energy-(ble))
 <!--te-->
 
 Installation de Teensyduino
@@ -494,7 +494,7 @@ Liste des modules MikroElektronika testés et compatible avec la carte d'acquisi
 - [BLE ⅔ Click](https://www.mikroe.com/ble-p-click/)
 - [LoRa Click](https://www.mikroe.com/lr-click/)
 
-Pinout Datalogger_V2
+Pinout DataloggerV2
 --------------------
 
 ![pinout_datalogger](https://user-images.githubusercontent.com/106671909/172334709-dba5243d-9064-475c-aca5-53261286cae3.png)
