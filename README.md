@@ -1,4 +1,5 @@
-![example workflow](https://github.com/burakduru/dataloggerv2/actions/workflows/main.yml/badge.svg)
+[![CI](https://github.com/burakduru/dataloggerv2/actions/workflows/main.yml/badge.svg?branch=master)]((https://github.com/burakduru/dataloggerv2/actions/workflows/main.yml)
+![GitHub release (latest by date)](https://img.shields.io/github/v/release/burakduru/dataloggerv2)
 
 # Datalogger_V2
 __Ce répertoire Github regroupe la partie électronique et informatique embarquée de la carte d'acquistion Datalogger_V2 rédigé par Burak DURU en tant qu'apprenti ingénieur en électronique à la [Division Technique de l'INSU Meudon](https://www.dt.insu.cnrs.fr/).__
