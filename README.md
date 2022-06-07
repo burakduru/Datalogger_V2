@@ -193,7 +193,7 @@ On obtient ici plusieurs informations concernant les réseaux :
 Ouvrir tout d’abord “arduino_secrets.h” puis définir le nom du réseau (secret_ssid) puis le mot de passe (secret_pass)  
 Compiler finalement le programme le programme : si la connection est bien effectué, on obtient plusieurs information dont une adresse IP attribuée automatiquement au module  
 
-* Connexion au broker MQTT IO.Adafruit via une connexion WIFI en compilant le programme ""__[adafruitio_wifi.ino](https://github.com/burakduru/dataloggerv2/blob/main/Programmes/adafruitio_wifi/adafruit_io_wifi_mqtt_16_04.ino)__"
+* Connexion au broker MQTT IO.Adafruit via une connexion WIFI en compilant le programme "__[adafruitio_wifi.ino](https://github.com/burakduru/dataloggerv2/blob/main/Programmes/adafruitio_wifi/adafruit_io_wifi_mqtt_16_04.ino)__"
 
 AdafruitIO
 ----------
