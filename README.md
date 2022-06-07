@@ -31,12 +31,11 @@ Fonctionnalités de la carte d’acquisition :
 
 ## Matériel
 
-* PCB : Fichiers schématique (.schDoc) et PCB (.pcbDoc) sous Altium Designer
+* [PCB](https://github.com/burakduru/dataloggerv2/tree/main/PCB) : Fichiers schématique (.schDoc) et PCB (.pcbDoc) sous Altium Designer
 
 ## Schéma fonctionnement complet
 
-[MicroDial_Data_Log_V2_SCH.pdf](https://github.com/burakduru/Datalogger_V2/files/8852100/MicroDial_Data_Log_V2_SCH.pdf)
-
+* [Schématique](https://github.com/burakduru/dataloggerv2/blob/main/MicroDial_Data_Log_V2_SCH.pdf) : Fichier PDF regroupant la schématique de la carte d'acquisition Datalogger_V2
 
 Guide d'utilisation 
 ===================
