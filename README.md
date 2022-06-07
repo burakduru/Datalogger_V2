@@ -447,7 +447,7 @@ Guide d'utilisation
 * [AdafruitIO](#adafruitio) 
 * [Thingspeak](#thingspeak)
 * [LoRa](#lora)  
-* [Bluetooth Low Energy (BLE)](#bluetooth-low-energy-(ble))
+* [Bluetooth Low Energy)](#bluetooth-low-energy)
 <!--te-->
 
 Installation de Teensyduino
@@ -640,7 +640,7 @@ Protocole de télécommunication LoRa bas débit et à faible consommation élec
 
 ![lorawan](https://user-images.githubusercontent.com/106671909/172371094-faaf80fd-14d3-4c1f-9724-59f1fa514c7b.png)
 
-Bluetooth Low Energy (BLE)
+Bluetooth Low Energy
 --------------------------
 
 fdsfsdfsdf
