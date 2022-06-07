@@ -246,14 +246,55 @@ Protocole de télécommunication LoRa bas débit et à faible consommation élec
 
 ![lorawan](https://user-images.githubusercontent.com/106671909/172371094-faaf80fd-14d3-4c1f-9724-59f1fa514c7b.png)
 
+La transmission LoRa est constitué de plusieurs étapes : 
+* Configuration du transceiver RN2483 (LoRa Click) en utilisation la bibliothèque “rn2483”
+* Communication RF à 868.5MHz entre le module Click LoRa et le Gateway LoRa de la DT
+* Depuis le Gateway connection à Internet puis au serveur TTN (The ThingsNetwork)
+* Configuration de TTN afin d’enregistrer le device et de recevoir/envoyer les trames entre les différents modules LoRa et le gateway
+* Configuration depuis TTN vers un broker MQTT (ThingSpeak) afin d’afficher par exemple la courbe de la température
+
+Configuration du Gateway Dragino LPS8 : 
+* Cette passerelle multi-channel permet de relier le réseau sans fil LoRa(868 MHz) à un réseau IP via une connexion WiFi ou Ethernet
+
+![LoRa_1](https://user-images.githubusercontent.com/106671909/172408047-7e881990-bb4f-4d25-a57e-fda7009c4ef4.png)
+
+* Pour la configuration du gateway, nous disposons de plusieurs possibilités de connexion. Soit une connexion à Internet via un réseau WIFI et une connection LAN du PC vers le Gateway (RJ45) sinon une connexion à Internet via le port WAN (RJ45) et une connexion entre le PC et le gateway en se connectant au réseau WIFI du gateway (dragino-1f….)
+* Connexion WIFI à Internet et LAN pour configurer le gateway (adresse 10.130.1.1)  : username : root / password : dragino
+* Cliquer sur “LoRaWAN” puis choisir comme Service Provider “The Things Network” et comme Server Adress le serveur européen “TTN-routeur-EU, EU 433 and EU 863-870”.
+
+![LoRa_2](https://user-images.githubusercontent.com/106671909/172408563-7060ef49-09d8-47ba-8f9a-66bb593e0eda.png)
+
+* Se rendre sur “Network” puis “WIFI”, cochez enable WiFi WAN Client puis entrer le nom du réseau WIFI “Host WiFi SSID”, le mot de passe du réseau “Passphrase” et enfin choisir depuis WIFI Survey le nom du réseau puis le type de cryptage. Finalement, la connexion est validée en dessous
+
+![LoRa_3](https://user-images.githubusercontent.com/106671909/172408787-740e07c3-e18b-4bd3-8adc-fcede9de3c62.png)
+
+* Après avoir connecté le Gateway à Internet, vérifions la connection au serveur TTN. Pour cela, il faut se rendre dans “home”
+
+![LoRa_4](https://user-images.githubusercontent.com/106671909/172409038-8b67e32f-fbbd-40c2-9b12-6811e616f734.png)
+
+* Avant de configurer le gateway sur TTN, il faut récupérer le gateway ID. Se rendre sur “LoRaWAN” puis dans “LoRaWAN Configuration” et recopier le Gateway ID
+
+![LoRa_5](https://user-images.githubusercontent.com/106671909/172409225-3fec98b8-37fb-4459-82a0-2428bcdcb50d.png)
+
+* Se connecter à “thethingsnetwork.org”, puis dans “profil” cliquer sur “Console”. Choisir “Gateway” puis “register gateway”. Entrer le Gateway ID précédemment copié, choisir Europe pour Frequency Plan et Indoor pour Antenna Placement
+
+![LoRa_6](https://user-images.githubusercontent.com/106671909/172409442-fba09460-68eb-4a82-be17-0f8b4d235422.png)
+
+Impact du faceur d'étalement sur la portée et le débit (SF - Spreading Factor)
+
+![LoRa_7](https://user-images.githubusercontent.com/106671909/172410244-2fedcb92-8c3f-412a-86b9-555b0d76a513.png)
+
 Bluetooth Low Energy
 --------------------------
 
-fdsfsdfsdf
-fdsfsdfsdfsd
+BLE P Click :
+* Puce Bluetooth Low Energy (BLE) nRF8001 
+* Bus SPI (via le socket MikroBUS)
+* Utilisation de bibliothèque open source Arduino => utilisation du module BLE
+* Connection avec un smartphone en bluetooth via l’application Bluefruit Connect) 
+* Envoi informations de températures et tensions en bluetooth 
 
-
-
+![ble_click](https://user-images.githubusercontent.com/106671909/172410543-8e2f8916-d0e0-4beb-a8cc-5769ca41bdb0.png)
 
 
 
