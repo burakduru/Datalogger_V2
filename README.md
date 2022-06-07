@@ -435,23 +435,23 @@ Guide d'utilisation
 ===================
 
 <!--ts-->
-[1. Installation de Teensyduino](#1.-installation-de-teensyduino)    
-2. [Installation de bibliothèques sous Teensyduino](#1. Installation-de-Teensyduino)  
-3. Modules Click Board  
-4. Pinout Datalogger_V2  
-5. Liaison RS232  
-6. Visual Studio  
-7. Bus CAN  
-8. Ethernet  
-9. [WIFI]  
-10. AdafruitIO  
-11. Thingspeak  
-12. LoRa  
-13. Bluetooth Low Energy (BLE)
+* [Installation de Teensyduino](#installation-de-teensyduino)    
+* [Installation de bibliothèques sous Teensyduino](#1. Installation-de-Teensyduino)  
+* [Modules Click Board](#  
+* [Pinout Datalogger_V2](#  
+* [Liaison RS232](# 
+* [Visual Studio](# 
+* [Bus CAN](#  
+* [Ethernet](#  
+* [WIFI](# 
+* [AdafruitIO](# 
+* [Thingspeak](#
+* [LoRa](#  
+* [Bluetooth Low Energy (BLE)](#
 <!--te-->
 
-1. Installation de Teensyduino
-==============================
+Installation de Teensyduino
+---------------------------
 
 Télécharger l’Add-On pour l’IDE d’Arduino en utilisant ce lien sous Windows: https://www.pjrc.com/teensy/td_download.html.
 Avec Windows 10, il n’y a pas de driver à installer : On choisit donc, le chemin d’accès où se trouve arduino.exe : 
@@ -463,7 +463,9 @@ Teensy 3.6 / USB Type : “Serial” / CPU Speed : “180MHz” / Port : “Num�
 
 ![teensyduino2](https://user-images.githubusercontent.com/106671909/172332130-be41e609-0de8-48ad-a56c-abf7fe5d57f6.png)
 
-### 2. Installation de bibliothèques sous Teensyduino
+Installation de bibliothèques sous Teensyduino
+----------------------------------------------
+
 Toutes les bibliothèques nécessaires à l’implémentation des programmes sont disponibles dans le fichier “Bibliothèques”. Copier-coller ces librairies dans les bibliothèques source de la carte Teensy :
 
 ![biblitotheque_teensy](https://user-images.githubusercontent.com/106671909/172332763-e17d26d9-7418-440c-8dd6-14237c40ee09.png)
@@ -478,7 +480,9 @@ Programmes de tests :
 - Envoi données de température en passant par le réseau LoRa (LoRa Click)
 - Application sous Visual Studio afin de récupérer les valeurs de températures/tensions et contrôler les relais/led RGB et le DAC.
 
-### 3. Modules Click Board
+Modules Click Board
+-------------------
+
 Liste des modules MikroElektronika testés et compatible avec la carte d'acquisition : 
 - [GNSS 4 Click](https://www.mikroe.com/gnss-4-click/)
 - [GNSS Click](https://www.mikroe.com/gnss-click/)
@@ -490,17 +494,20 @@ Liste des modules MikroElektronika testés et compatible avec la carte d'acquisi
 - [BLE ⅔ Click](https://www.mikroe.com/ble-p-click/)
 - [LoRa Click](https://www.mikroe.com/lr-click/)
 
-### 4. Pinout Datalogger_V2
+Pinout Datalogger_V2
+--------------------
 
 ![pinout_datalogger](https://user-images.githubusercontent.com/106671909/172334709-dba5243d-9064-475c-aca5-53261286cae3.png)
 
-### 5. Liaison RS232
+Liaison RS232
+-------------
 
 Programme __Datalogger__ regroupé en plusieurs fonctions permettant la conversion d’une valeur analogique à numérique puis cette valeur en tension, de cette tension en une valeur de résistance puis en température. Finalement ces valeurs sont transmises via la liaison RS232 ci-dessous :
 
 ![rs232](https://user-images.githubusercontent.com/106671909/172340766-75d503e6-aabd-4293-be31-35496c7b558d.png)
 
-### 6. Visual Studio
+Visual Studio
+-------------
 
 Pour l’[utilisation](https://visualstudio.microsoft.com/fr/) de l’application Windows Forms “DataLoggerNMEA”, il faut tout d’abord implémenté le code “interface_C_sharp.ino” dans la carte Data_Logger. L’envoi de la trame NMEA comportant les valeurs de températures des thermistances et de tensions se fait toutes les 5 secondes :
 
@@ -514,7 +521,9 @@ Interface de l'application :
 ![visual_studio](https://user-images.githubusercontent.com/106671909/172341977-24833648-a93b-49fd-901d-f0b4b682870a.png)
 
 
-### 7. Bus CAN
+Bus CAN
+-------
+
 Exemple d'application du bus CAN : Implémentation d’un code de transmission et de réception de trames de données en utilisant un identificateur pour chacune des cartes avec des données de température et de compteurs pour réaliser des tests  
 
 ![datalogger_buscan_1](https://user-images.githubusercontent.com/106671909/172338673-980f9af3-078b-422a-92e9-5cd07e13cfd2.png)
@@ -526,7 +535,8 @@ Exemple d'application du bus CAN : Implémentation d’un code de transmission e
 Nous avons ici implémenté le code “bus_can.ino” pour la carte Data_Logger et “can_teensy4_1.ino” pour la Teensy 4.1. Lorsque l’on observe le signal CAN_H/CAN_L à l’oscilloscope, on constate deux trames de données. La première trame correspond à l’envoi depuis la carte Data_Logger et la seconde à l’envoi depuis la Teensy 4.1. On peut identifier ces 2 trames par leur ID, “0x7DF” et “0x7E8”. Pour la trame “0x7DF”, data[0] correspond à une donnée de température et data[1..7] correspond à  “2” à “8” en ASCII. Les 4 derniers octets correspondent au CRC (“cyclic redundancy check”).
 Pour la trame “0x7E8”, data[0..5] correspond à la donnée recopiée à la réception de “0x7DF” et data[6..7] correspondent à des compteurs qui s’incrémentent à chaque envoi de données.
 
-### 8. Ethernet
+Ethernet
+--------
 
 Installation de la librairie Ethernet :
 * Librairie disponible lors de l'installation de Teensyduino  
@@ -549,7 +559,9 @@ Programmes d'exemples disponibles :
 * __wiz820io_udp_send_receive__ : *Envoi/Réception trames UDP via Hercules*
 * __wiz820io_webserver__ : *Création d’un serveur WEB qui renvoi des valeurs des pins analogiques*
 
-### 9. WIFI 
+WIFI 
+----
+
 Utilisation du module [ATWINC1510](https://www.mikroe.com/wifi-7-click/) :
 * Installation de la bibliothèque du module ATWINC1510 depuis le gestionnaire de bibliothèque
 
@@ -576,7 +588,8 @@ Compiler finalement le programme le programme : si la connection est bien effect
 
 * Connexion au broker MQTT IO.Adafruit via une connexion WIFI en compilant le programme ""__adafruitio_wifi.ino__"
 
-### 10. AdafruitIO
+AdafruitIO
+----------
 
 [AdafruitIO](https://io.adafruit.com/) est une plateforme IoT qui propose un service cloud permettant à la fois d’afficher/d’envoyer des informations sur une interface web avec une affichage en temps réels de données comme par exemple le contrôle de relais/LEDs pour notre cas
 
@@ -607,7 +620,9 @@ Pour comprendre la création/utilisation du dashboard IO.Adafruit se référer a
 
 ![dashboard_adafruitio](https://user-images.githubusercontent.com/106671909/172346611-2a9bdb0a-44f6-4dc0-a7ad-8a38cd631114.png)
 
-### 11. Thingspeak
+Thingspeak
+----------
+
 [Thingspeak](https://thingspeak.com/) est une plateforme IoT semblable à IO.Adafruit :  
 * Création d’un compte Thingpseak via thingspeak.com  
 * Création d’un channel afin d’afficher sur un dashboard les “fields” :
@@ -618,13 +633,15 @@ Pour comprendre la création/utilisation du dashboard IO.Adafruit se référer a
 
 ![thingspeak_lora](https://user-images.githubusercontent.com/106671909/172367679-2a6120ce-828d-46e3-9491-8cccf8b9ccee.png)
 
-### 12. LoRa
+LoRa
+----
 
 Protocole de télécommunication LoRa bas débit et à faible consommation électrique :
 
 ![lorawan](https://user-images.githubusercontent.com/106671909/172371094-faaf80fd-14d3-4c1f-9724-59f1fa514c7b.png)
 
-### 13. Bluetooth Low Energy (BLE)
+Bluetooth Low Energy (BLE)
+--------------------------
 
 
 
